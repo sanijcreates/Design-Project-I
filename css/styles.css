@@ -1,0 +1,83 @@
+
+body {
+    margin: 0;
+}
+/* Layout  */
+
+.container {
+    display: flex;
+    width: 70%;
+    max-width: 900px;
+    align-items: center;
+    
+    margin: 0 auto;
+    justify-content: space-between;
+    
+}
+header {
+    background-color: #F8F8F8;
+    padding: 2em 0;
+}
+
+
+
+
+/* Typography */
+h1 {
+    font-family: 'Lora', serif;
+    font-size: 2rem;
+    color: #143774;
+    font-weight: 400;
+    margin: 0;
+}
+p,
+nav {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 0.75rem;
+    
+}
+nav {
+    color: #707070;
+}
+p {
+    color: #1792D2;
+    margin: 0;
+}
+
+/* navigation */
+
+nav ul {
+    display:  flex;
+    
+   
+}
+nav li {
+    list-style: none;
+    margin: 0 1em;
+   
+    
+}
+nav a {
+    text-decoration: none;
+    color: #707070;
+    
+}
+nav a:focus,
+nav a:hover {
+    border-bottom: 1px solid #707070;
+    color: #1792d2;
+
+}
+@media (max-width: 780px) {
+    .container {
+        flex-direction: column;
+    }
+    p {
+        text-align: center;
+    }
+    nav ul {
+        padding: 0;
+    }
+    
+}
