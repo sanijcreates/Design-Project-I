@@ -1,4 +1,4 @@
-# Design-Project-I - A design-focused, digitally accessible and minimalistic website. 
+# Design-Project-I: A design-focused, digitally accessible and minimalistic website. 
 
 This is a project where I solely focused on designs. I learned advanced CSS deeply through this project. The main focus of this project was to make it accessible to 
 everyone, make it smoothly responsive and follow the general convention of CSS. 
